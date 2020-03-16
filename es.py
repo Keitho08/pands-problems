@@ -17,5 +17,8 @@ with open (txtfile, "r") as myfile:
 
 # https://docs.python.org/3/tutorial/inputoutput.html
 # https://pythonexamples.org/python-count-number-of-words-in-text-file/
+# https://pythonexamples.org/python-count-number-of-characters-in-text-file/
 # https://docs.python.org/3/library/stdtypes.html#str.count
 # https://stackoverflow.com/questions/22694244/counting-specific-letters-or-symbols-in-a-text-file-in-python
+# https://learn.datacamp.com/projects/38
+# https://realpython.com/read-write-files-python/
