@@ -1,4 +1,4 @@
-# Keith Brazill
+# Keith Brazill (G00387845)
 # 16th March 2020
 
 # Write a program that displays a plot of the functions 
@@ -29,7 +29,7 @@ plt.plot(y3, color='red', linestyle='dashed', linewidth = 3,
 plt.xlabel('x-axis') # names xaxis "x-axis"
 plt.ylabel('y-axis') # names yaxis "y-axis"
 
-plt.title('f(x)[f(x)=x], g(x)[g(x)=x**2] and h(x)[h(x)=x**3]')
+plt.title('f(x)[f(x)=x], g(x)[g(x)=x**2] and h(x)[h(x)=x**3]') # adds the plot title
 plt.legend() # displays labels in plots above
 plt.show() # Depicts graphic representation of the plot
 
@@ -38,3 +38,5 @@ plt.show() # Depicts graphic representation of the plot
 # https://realpython.com/python-matplotlib-guide/
 # https://stackoverflow.com/questions/17941083/how-to-label-a-line-in-matplotlib-python/17942066
 # https://projects.datacamp.com/projects/33 (Datacamp Matplotlib tutorial)
+# http://cs231n.github.io/python-numpy-tutorial/
+# https://matplotlib.org/tutorials/introductory/pyplot.html

@@ -8,7 +8,7 @@
 #Example:   Please enter a positive number: 14.5
 #           The square root of 14.5 is approx. 3.8.
 
-# number of iterations to run (line 10), I found out this needs to be a large no. to get a good approximation. 
+# number of iterations to run (line 14), I found out this needs to be a large no. to get a good approximation. 
 # A lower value can result in wrong answer, e.g 1 iteration returns 7.8 as answer for 14.5 which is incorrect. 
 
 def newton_method(number, number_iters = 100000):
