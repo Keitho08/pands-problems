@@ -24,9 +24,8 @@ Syntax: {[argument_index_or_keyword]:[width][.precision][type]}
 User is prompted to enter height and weight as a float 
 (real number i.e. 1.00) number. The users weight is divided
 by the height in metres to the power of 2. The output
-is printed to the screen. The code "{:.2f}'.format(BMI)" specifies the format of the string. "2f" represents a floating
-point number to a precision of 2 decimal places. ".format BMI" 
-specifies the output is from the BMI function.
+is printed to the screen. The code "{:.2f}'.format(BMI)" formats the BMI number to be outputed as a floating point number. "2f" represents a floating
+point number to a precision of 2 decimal places.
 
 **References:**
 1. thepythonguru.com. 2020. Python String Formatting. [online] Available at: <https://thepythonguru.com/python-string-formatting/> [Accessed 29 March 2020].
@@ -36,7 +35,7 @@ specifies the output is from the BMI function.
 5. BMI Calculator Ireland. 2020. BMI Calculator - Calculate Your Body Mass Index. [online] Available at: <https://bmicalculatorireland.com/> [Accessed 29 March 2020].
 
 # Task 2:
-*Write a program that takes asks a user to input a string and outputs every second letter in reverse order.*
+*Write a program that asks a user to input a string and outputs every second letter in reverse order.*
 
 **Code:**
 ```python
@@ -52,7 +51,7 @@ outputs every second letter in reverse order. Example:
 * output: .o zletrv pu o wr cu h
 
 Syntax: stringname[stringlength::-2]
-The string name is "s", we do not specify the string length as we want the full lenght we leave as follows [:]. :-2 specifies that we print from the end using only every second letter. In understanding this formula, the code was tested on these lines to understand how these impacted the results and verify the code:
+The string name is "s", we do not specify the string length as we want the full length we leave as follows [:]. :-2 specifies that we print from the end using only every second letter. In understanding this formula, the code was tested on these lines to understand how these impacted the results and verify the code:
 * print(s[:]) - *prints all the string*
 * print(s[::-1]) - *prints all the string backwards*
 
@@ -97,7 +96,7 @@ return the result of; 3x number +1 to the function.
     * The result of applying the collatz function to n is printed to the screen.
     * The collatz function stops when n = 1
 
-4. If the if the "if" statement fails when a minus number is unput, the else catches this to prevent program crashing.  In this case the following error message is displayed "Please enter a positive number!".
+4. If the "if" statement fails when a minus number is input, the else catches this to prevent program crashing.  In this case the following error message is displayed "Please enter a positive number!".
 
 5. Example input and output:
     * Input (n): 10 
@@ -161,10 +160,10 @@ else:
 **Explaining the Code:**
 
 1. First the method to calculate the square root is defined. In this case, following online research the Newton Method was deemed as a good solution.
-2. We tell the newton method to apply to the inputted number and apply a set numbe of iterations to find the approximate square root,
-3. It was found the  number of iterations to run needs to be a large number to get a good approximation. A lower value can result in wrong answer, e.g 1 iteration returns 7.8 as answer for 14.5 which is incorrect. The larger the number the greater the approximation.
-4. We then input the newton formula and return result to the sequence. 
-5. The user is prompted to input as positive integer after running the program. If this number is less than 0 it does not run, this prevent user to input a negative number as per project brief.
+2. The newton method is applied to the inputted number and  a set number of iterations is run to find the approximate square root.
+3. It was found the  number of iterations to run needs to be a large number to get a good approximation. A lower value can result in a wrong answer, e.g 1 iteration returns 7.8 as answer for 14.5 which is incorrect. The larger the number the greater the approximation.
+4. We then input the newton formula and return the result to the sequence. 
+5. The user is prompted to input a positive integer after running the program. If this number is less than 0 it does not run, this prevent inputting a negative number as per project brief.
 6. If the user inputs a positive number the defined newton method is applied to the number (n) using the Sqrt function and the result is printed to the screen rounded to 1 decimal place. 
 7. Example input and output:
     * Input: 14.5
@@ -193,7 +192,7 @@ with open (txtfile, "r") as myfile:
 
 1. The user is prompted to enter name of txt file as string.
 2. The text file is opened as "myfile" in read (r) mode
-3. We define the data function as data = data is equal to the text read in inserted file (myfile.read())
+3. We define the data function as data = data is equal to the text read in the inserted file (myfile.read())
 4. We define the freq function which is equal to the count of "e" contained in the inserted file.
 4. The frequency (freq) is printed to the screen.
 5. A text file "moby-dick.txt is contained within the GitHub repository, the input and output running this program from the command line is contained below:
